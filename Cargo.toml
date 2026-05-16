@@ -1,0 +1,12 @@
+[package]
+name = "calender-meow"
+version = "0.1.0"
+authors = ["JebCat <gabriel.zimmermann98@pm.me>"]
+license = "MIT"
+edition = "2021"
+
+[dependencies]
+ratatui = { version = "0.30.0", default-features = false }
+color-eyre = "0.6.5"
+ratzilla = "0.3.0"
+time = { version = "0.3.47", features = ["wasm-bindgen"] }
